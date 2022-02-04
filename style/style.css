@@ -71,3 +71,25 @@ img {
 .clear {
   clear: both;
 }
+
+@media screen and (max-width: 850px) {
+  div#lezioni {
+    background-color: #f2f2cd;
+    margin: 0;
+    width: 100%;
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  body {
+    margin: none;
+  }
+
+  div#lezioni .row{
+    width: 100%;
+    margin-top: 0;
+    margin-right: 0;
+    float: none;
+  }
+}
