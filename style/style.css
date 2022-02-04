@@ -84,10 +84,14 @@ img {
     background-color: #f2f2cd;
   }
 
+  img {
+    height: 150px;
+  }
+
   #lezioni .row>.left,
   #lezioni .row>.right {
     width: 100%;
-    padding: 1rem;
+    padding: 10px;
   }
 
   .row{
@@ -97,7 +101,7 @@ img {
   }
 
   #steps .row {
-    padding: 1rem;
+    padding: 10px;
   }
 
   #steps .row>.left,
@@ -110,7 +114,7 @@ img {
   #why .row>.second,
   #why .row>.third {
     padding: .5rem;
-    margin-top: 1rem;
+    margin-top: 10px;
     width: 100%;
   }
 
